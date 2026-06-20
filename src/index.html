@@ -1,27 +1,10 @@
-<!--
-
-=========================================================
-* Pixel Free Bootstrap 5 UI Kit
-=========================================================
-
-* Product Page: https://themesberg.com/product/ui-kit/pixel-free-bootstrap-5-ui-kit
-* Copyright 2021 Themesberg (https://www.themesberg.com)
-
-* Coded by https://themesberg.com
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. Contact us if you want to remove it.
-
--->
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 
 <head>
     @@include('./_head.html', {
     "path": ".",
-    "title": "Pixel - Free Bootstrap 5 UI Kit"
+    "title": "山西宏泽惠科技有限公司 - 专注政企数字化建设"
     })
 </head>
 
@@ -32,746 +15,443 @@
     })
     <main>
 
-        @@include('./_preloader.html', {
-        "path": "."
-        })
-
-        <!-- Hero -->
-        <section class="section-header overflow-hidden pt-7 pt-lg-8 pb-9 pb-lg-12 bg-primary text-white">
+        <!-- Hero Section -->
+        <section class="section-header overflow-hidden pt-7 pt-lg-8 pb-9 pb-lg-12 bg-primary text-white" style="background: linear-gradient(135deg, #174F84 0%, #0d3a63 100%);">
             <div class="container">
-                <div class="row">
-                    <div class="col-12 text-center">
-                        <div class="bootstrap-big-icon d-none d-lg-block">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="700" height="622" class="d-block my-1"
-                                viewBox="0 0 118 94" role="img">
-                                <title>Bootstrap</title>
-                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                    d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z"
-                                    fill="currentColor"></path>
-                            </svg>
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-12 col-lg-6 text-center text-lg-start">
+                        <h1 class="fw-bolder display-3 mb-4">山西宏泽惠科技有限公司</h1>
+                        <p class="lead fw-normal text-white-50 mb-4">专注政企数字化建设、网络信息安全、软硬件销售与整体IT运维服务的综合性科技服务商</p>
+                        <p class="mb-5 text-white-75">深耕本地政企市场，以"设备正品、技术专业、服务落地、方案定制"为核心，为政府单位、环保行业、各类企业提供一站式信息化整体解决方案，助力客户数字化、安全化、合规化升级。</p>
+                        <div class="d-flex justify-content-center justify-content-lg-start">
+                            <a href="#services" class="btn btn-tertiary mb-3 me-2 me-md-3 animate-up-2"><span class="fas fa-th-large me-2"></span> 核心业务</a>
+                            <a href="html/pages/contact.html" class="btn btn-outline-white mb-3 animate-up-2"><span class="fas fa-envelope me-2"></span> 联系我们</a>
                         </div>
-                        <h1 class="fw-bolder display-2">Pixel UI Kit</h1>
-                        <h2 class="lead fw-normal text-muted mb-4 px-lg-10">Free Bootstrap 5 UI Kit without jQuery that
-                            will help you prototype and design beautiful, creative and modern websites</h2>
-                        <!-- Button Modal -->
-                        <div class="d-flex justify-content-center align-items-center mb-5">
-                            <a href="#components" class="btn btn-tertiary mb-3 mt-2 me-2 me-md-3 animate-up-2"><span
-                                    class="fas fa-th-large me-2"></span> <span class="d-none d-md-inline">Explore
-                                    components</span> <span class="d-md-none">Components</span></a>
-                            <a class="github-button" href="https://github.com/themesberg/pixel-bootstrap-ui-kit"
-                                data-color-scheme="no-preference: dark; light: light; dark: light;"
-                                data-icon="octicon-star" data-size="large" data-show-count="true"
-                                aria-label="Star themesberg/pixel-bootstrap-ui-kit on GitHub">Star</a>
-                        </div>
-                        <div class="d-flex justify-content-center flex-column mb-6 mb-lg-5">
-                            <a href="https://themesberg.com" class="d-block text-center mx-auto" target="_blank">
-                                <img src="./assets/img/themesberg.svg" class="d-block mx-auto mb-3" height="25"
-                                    width="25" alt="Themesberg Logo">
-                                <span class="text-muted font-small">A Themesberg production</span>
-                            </a>
-                        </div>
+                    </div>
+                    <div class="col-12 col-lg-5 d-none d-lg-block">
+                        <img src="./assets/img/company/hero-network.jpg" alt="数据中心" class="img-fluid rounded-lg shadow-lg" style="max-height: 400px; object-fit: cover;">
                     </div>
                 </div>
             </div>
-            <figure class="position-absolute bottom-0 left-0 w-100 d-none d-md-block mb-n2"><svg class="fill-white"
-                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3000 185.4">
+            <figure class="position-absolute bottom-0 left-0 w-100 d-none d-md-block mb-n2">
+                <svg class="fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3000 185.4">
                     <path d="M3000,0v185.4H0V0c496.4,115.6,996.4,173.4,1500,173.4S2503.6,115.6,3000,0z"></path>
-                </svg></figure>
+                </svg>
+            </figure>
         </section>
-        <div class="section py-0">
-            <div class="container mt-n10 mt-lg-n12 z-2">
-                <div class="row justify-content-center">
-                    <div class="col-12 col-md-10"><img src="./assets/img/presentation-mockup.png"
-                            alt="Pixel Free Mockup"></div>
-                </div>
-            </div>
-        </div>
 
+        <!-- 核心数据 -->
         <section class="section section-lg">
             <div class="container">
                 <div class="row justify-content-center mb-5 mb-lg-6">
                     <div class="col-6 col-md-3 text-center mb-4">
                         <div class="icon icon-shape icon-lg bg-white shadow-lg border-light rounded-circle mb-4">
-                            <span class="fas fa-puzzle-piece text-tertiary"></span>
+                            <span class="fas fa-network-wired text-tertiary"></span>
                         </div>
-                        <h3 class="fw-bolder">80</h3>
-                        <p class="text-gray">Bootstrap 5 elements</p>
+                        <h3 class="fw-bolder">8</h3>
+                        <p class="text-gray">核心业务板块</p>
                     </div>
                     <div class="col-6 col-md-3 text-center mb-4">
                         <div class="icon icon-shape icon-lg bg-white shadow-lg border-light rounded-circle mb-4">
-                            <span class="fas fa-pager text-tertiary"></span>
+                            <span class="fas fa-users text-tertiary"></span>
                         </div>
-                        <h3 class="fw-bolder">5</h3>
-                        <p class="text-gray">Example Pages</p>
+                        <h3 class="fw-bolder">500+</h3>
+                        <p class="text-gray">服务客户</p>
                     </div>
                     <div class="col-6 col-md-3 text-center">
                         <div class="icon icon-shape icon-lg bg-white shadow-lg border-light rounded-circle mb-4">
-                            <span class="fab fa-sass text-tertiary"></span>
+                            <span class="fas fa-handshake text-tertiary"></span>
                         </div>
-                        <h3 class="fw-bolder">Workflow</h3>
-                        <p class="text-gray">Sass & Gulp</p>
+                        <h3 class="fw-bolder">10+</h3>
+                        <p class="text-gray">年行业经验</p>
                     </div>
                     <div class="col-6 col-md-3 text-center">
                         <div class="icon icon-shape icon-lg bg-white shadow-lg border-light rounded-circle mb-4">
-                            <span class="fab fa-js-square text-tertiary"></span>
+                            <span class="fas fa-headset text-tertiary"></span>
                         </div>
-                        <h3 class="fw-bolder">Vanilla</h3>
-                        <p class="text-gray">Javascript</p>
-                    </div>
-                </div>
-                <div class="row justify-content-between align-items-center mb-5 mb-lg-7">
-                    <div class="col-12 col-lg-5 mb-5 mb-lg-0 order-lg-2">
-                        <h2 class="h1">Bootstrap 5</h2>
-                        <p class="mb-4 lead fw-bold">Latest version of Bootstrap without jQuery</p>
-                        <p class="mb-4">Pixel is built using the latest version of Bootstrap 5 and we only used Vanilla
-                            Javascript for everything including the plugins</p>
-                        <a href="https://themesberg.com/docs/pixel-bootstrap/components/accordions/" target="_blank"
-                            class="btn btn-outline-primary"><span class="fas fa-book me-2"></span> Getting started</a>
-                    </div>
-                    <div class="col-12 col-lg-6 order-lg-1">
-                        <img src="./assets/img/illustrations/bs5-illustrations.svg" alt="Front pages overview">
-                    </div>
-                </div>
-                <div class="row justify-content-between align-items-center mb-5 mb-lg-7">
-                    <div class="col-lg-5 mb-5 mb-lg-0">
-                        <h2 class="h1 d-flex align-items-center">Modular sections <span
-                                class="badge-md ms-3 mb-0 fs-6 badge rounded-pill text-white bg-tertiary">Pro</span>
-                        </h2>
-                        <p class="mb-4 lead fw-bold">More than 50 website sections</p>
-                        <p class="mb-4">Using the sections in Pixel Pro you can easily build new pages by adding them
-                            together</p>
-                        <a href="https://demo.themesberg.com/pixel-pro/v5/html/sections/all-sections.html"
-                            target="_blank" class="btn btn-primary mt-2 animate-up-2">
-                            <span class="fas fa-th-large me-2"></span>
-                            Explore sections
-                        </a>
-                    </div>
-                    <div class="col-lg-6">
-                        <img src="./assets/img/sections-mockup.jpg" alt="MapBox Leaflet.js Custom Integration Mockup">
-                    </div>
-                </div>
-                <div class="row justify-content-between align-items-center">
-                    <div class="col-12 col-lg-5 order-lg-2 mb-5 mb-lg-0">
-                        <h2 class="h1 d-flex align-items-center">User Dashboard <span
-                                class="badge-md ms-3 mb-0 fs-6 badge rounded-pill text-white bg-tertiary">Pro</span>
-                        </h2>
-                        <p class="mb-4 lead fw-bold">9 dashboard pages</p>
-                        <p class="mb-4">Quickly set up a user settings panel with the advanced dashboard pages including
-                            billing, settings, messaging</p>
-                        <a href="https://demo.themesberg.com/pixel-pro/v5/html/dashboard/account.html" target="_blank"
-                            class="btn btn-tertiary animate-up-2"><span class="fas fa-chart-line me-2"></span> Explore
-                            dashboard</a>
-                    </div>
-                    <div class="col-12 col-lg-6 order-lg-1">
-                        <img src="./assets/img/presentation-mockup-dashboard.png" alt="Dashboard Preview">
+                        <h3 class="fw-bolder">7x24</h3>
+                        <p class="text-gray">技术支持</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <div class="section section-sm pb-0 mb-n4" id="components">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <h3 class="text-center">Accordions</h3>
-                </div>
-            </div>
-        </div>
-
-        @@include('./components/_accordions.html', {
-        "path": ".",
-        "classes": "bg-primary text-white"
-        })
-
-        <div class="section section-sm pb-0 mb-n4">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <h3 class="text-center">Alerts</h3>
-                </div>
-            </div>
-        </div>
-
-        @@include('./components/_alerts.html', {
-        "path": ".",
-        "classes": "bg-primary text-white"
-        })
-
-        <div class="section section-sm pb-0 mb-n4">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <h3 class="text-center">Badges</h3>
-                </div>
-            </div>
-        </div>
-
-        @@include('./components/_badges.html', {
-        "path": "."
-        })
-
-        <div class="section section-sm pb-0 mb-n4">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <h3 class="text-center">Cards</h3>
-                </div>
-            </div>
-        </div>
-
-        @@include('./components/_cards.html', {
-        "path": "."
-        })
-
-        <div class="section section-sm pb-0 mb-n4">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <h3 class="text-center">Carousels</h3>
-                </div>
-            </div>
-        </div>
-
-        @@include('./components/_bootstrap-carousels.html', {
-        "path": "."
-        })
-
-        <div class="section section-sm pb-0 mb-n4">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <h3 class="text-center">Breadcrumbs</h3>
-                </div>
-            </div>
-        </div>
-
-        @@include('./components/_breadcrumbs.html', {
-        "path": "."
-        })
-
-        <div class="section section-sm pb-0 mb-n4">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <h3 class="text-center">Buttons</h3>
-                </div>
-            </div>
-        </div>
-
-        @@include('./components/_buttons.html', {
-        "path": "."
-        })
-
-        <div class="section section-sm pb-0 mb-n4">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <h3 class="text-center">Dropdowns</h3>
-                </div>
-            </div>
-        </div>
-
-        @@include('./components/_dropdowns.html', {
-        "path": "."
-        })
-
-        <div class="section section-sm pb-0 mb-n4">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <h3 class="text-center">Forms</h3>
-                </div>
-            </div>
-        </div>
-
-        @@include('./components/_forms.html', {
-        "path": "."
-        })
-
-        <div class="section section-sm pb-0 mb-n4">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <h3 class="text-center">Modals</h3>
-                </div>
-            </div>
-        </div>
-
-        @@include('./components/_modals.html', {
-        "path": "."
-        })
-
-        <div class="section section-sm pb-0 mb-n4">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <h3 class="text-center">Navs</h3>
-                </div>
-            </div>
-        </div>
-
-        @@include('./components/_navs.html', {
-        "path": "."
-        })
-
-        <div class="section section-sm pb-0 mb-n4">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <h3 class="text-center">Pagination</h3>
-                </div>
-            </div>
-        </div>
-
-        @@include('./components/_pagination.html', {
-        "path": "."
-        })
-
-        <div class="section section-sm pb-0 mb-n4">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <h3 class="text-center">Popovers</h3>
-                </div>
-            </div>
-        </div>
-
-        @@include('./components/_popovers.html', {
-        "path": "."
-        })
-
-        <div class="section section-sm pb-0 mb-n4">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <h3 class="text-center">Progress bars</h3>
-                </div>
-            </div>
-        </div>
-
-        @@include('./components/_progress-bars.html', {
-        "path": "."
-        })
-
-
-        <div class="section section-sm pb-0 mb-n4">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <h3 class="text-center">Tabs</h3>
-                </div>
-            </div>
-        </div>
-
-        @@include('./components/_tabs.html', {
-        "path": "."
-        })
-
-        <div class="section section-sm pb-0 mb-n4">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <h3 class="text-center">Toasts</h3>
-                </div>
-            </div>
-        </div>
-
-        @@include('./components/_toasts.html', {
-        "path": "."
-        })
-
-        <div class="section section-sm pb-0 mb-n4">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <h3 class="text-center">Tooltips</h3>
-                </div>
-            </div>
-        </div>
-
-        @@include('./components/_tooltips.html', {
-        "path": "."
-        })
-
-        <div class="section section-sm pb-0 mb-n4">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <h3 class="text-center">Typography</h3>
-                </div>
-            </div>
-        </div>
-
-        @@include('./components/_typography.html', {
-        "path": "."
-        })
-
-        <div class="section section-sm pb-0 mb-n4">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <h3 class="text-center">Tables</h3>
-                </div>
-            </div>
-        </div>
-
-        @@include('./components/_tables.html', {
-        "path": "."
-        })
-
+        <!-- 关于我们预览 -->
         <section class="section section-md bg-soft">
             <div class="container">
-                <div class="row justify-content-center mb-5 mb-lg-6">
-                    <div class="col-12 text-center">
-                        <h2 class="h1 px-lg-5">5 hand-crafted example pages</h2>
+                <div class="row align-items-center justify-content-around">
+                    <div class="col-md-6 col-xl-6 mb-5">
+                        <img class="organic-radius img-fluid" src="./assets/img/company/about-team.jpg" alt="团队协作">
+                    </div>
+                    <div class="col-md-6 col-xl-5 text-center text-md-start">
+                        <span class="badge bg-tertiary mb-3">关于我们</span>
+                        <h2 class="h1 mb-5">一站式信息化整体解决方案</h2>
+                        <p class="lead">本公司是一家专注信息化基础设施建设、网络信息安全、定制化软件开发、环保智能监管系统、全周期IT运维的综合型科技企业。</p>
+                        <p>业务覆盖硬件设备供应、信息安全服务、系统集成施工、定制软件研发、环保智能化管控、全年运维保障六大板块。始终坚持以客户需求为导向，拒绝模板化服务，根据客户现场环境、行业要求、合规标准、预算体系，提供高适配、可落地、高稳定的整体解决方案。</p>
+                        <a href="html/pages/about.html" class="btn btn-primary mt-3 animate-up-2">了解更多 <span class="fas fa-arrow-right ms-2"></span></a>
                     </div>
                 </div>
-
-                @@include("./_pages-preview.html", {
-                "path": "./",
-                "path_pages": "./html/pages"
-                })
             </div>
         </section>
-        <section class="section section-lg bg-tertiary">
+
+        <!-- 核心业务 -->
+        <section class="section section-lg" id="services">
             <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8 text-center text-white">
-                        <h2 class="h1 font-weight-light">Notable <span class="font-weight-bold">features</span></h2>
-                        <p class="lead">You get all Bootstrap components fully customized. Besides, you receive numerous
-                            plugins out of the box and ready to use</p>
+                <div class="row mb-5 mb-lg-6">
+                    <div class="col-12 text-center">
+                        <span class="badge bg-tertiary mb-3">核心业务</span>
+                        <h2 class="h1 mb-4">八大核心业务</h2>
+                        <p class="lead px-lg-8">集网络设备销售、安全设备销售、服务器销售、网络安全基线核查、系统集成、IT运维服务、软件开发、企业环保门禁系统于一体的综合性服务</p>
                     </div>
                 </div>
-                <div class="row mt-6 text-white">
-                    <div class="col-md-4">
-                        <!-- Icon box -->
-                        <div class="icon-box text-center mb-5">
-                            <div class="icon">
-                                <span class="fab fa-bootstrap"></span>
+                <div class="row">
+                    <!-- 网络设备销售 -->
+                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                        <div class="card border-0 shadow-sm h-100">
+                            <img src="./assets/img/company/service-network.jpg" class="card-img-top" alt="网络设备销售" style="height: 180px; object-fit: cover;">
+                            <div class="card-body">
+                                <div class="icon icon-sm icon-tertiary mb-3">
+                                    <span class="fas fa-network-wired"></span>
+                                </div>
+                                <h3 class="h5 card-title">网络设备销售</h3>
+                                <p class="card-text text-gray font-small">企业级、工程级、政企专用网络硬件供应。路由器、核心交换机、无线AP、POE设备、综合布线、机房配套设备等全系列网络产品。正品行货、可对公开票、可批量供货。</p>
                             </div>
-                            <h3 class="h5 my-3">Bootstrap 5</h3>
-                            <p>A responsive and mobile-first theme built with the world's most popular CSS framework</p>
                         </div>
-                        <!-- End of Icon box -->
                     </div>
-                    <div class="col-md-4">
-                        <!-- Icon box -->
-                        <div class="icon-box text-center mb-5">
-                            <div class="icon">
-                                <span class="fab fa-sass"></span>
+                    <!-- 安全设备销售 -->
+                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                        <div class="card border-0 shadow-sm h-100">
+                            <img src="./assets/img/company/service-security.jpg" class="card-img-top" alt="安全设备销售" style="height: 180px; object-fit: cover;">
+                            <div class="card-body">
+                                <div class="icon icon-sm icon-tertiary mb-3">
+                                    <span class="fas fa-shield-alt"></span>
+                                </div>
+                                <h3 class="h5 card-title">安全设备销售</h3>
+                                <p class="card-text text-gray font-small">防火墙、上网行为管理、VPN、堡垒机、入侵防御、审计设备、终端安全等合规安全设备。适配等保测评、网络合规整改、企业内网加固场景。</p>
                             </div>
-                            <h3 class="h5 my-3">Build with Sass</h3>
-                            <p>Change one variable and the theme adapts. Colors, fonts, sizes, buttons... you name it
-                            </p>
                         </div>
-                        <!-- End of Icon box -->
                     </div>
-                    <div class="col-md-4">
-                        <!-- Icon box -->
-                        <div class="icon-box text-center mb-5">
-                            <div class="icon">
-                                <span class="fas fa-mobile-alt"></span>
+                    <!-- 服务器销售 -->
+                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                        <div class="card border-0 shadow-sm h-100">
+                            <img src="./assets/img/company/service-server.jpg" class="card-img-top" alt="服务器销售" style="height: 180px; object-fit: cover;">
+                            <div class="card-body">
+                                <div class="icon icon-sm icon-tertiary mb-3">
+                                    <span class="fas fa-server"></span>
+                                </div>
+                                <h3 class="h5 card-title">服务器销售</h3>
+                                <p class="card-text text-gray font-small">机架式、塔式、存储服务器、GPU算力服务器、虚拟化服务器全品类销售。可根据业务需求定制高性价比配置方案，杜绝资源浪费。</p>
                             </div>
-                            <h3 class="h5 my-3">Responsive Design</h3>
-                            <p>Did you know 53% of the world web traffic is mobile? Pixel is fully responsive and mobile
-                                first</p>
                         </div>
-                        <!-- End of Icon box -->
                     </div>
-                    <div class="col-md-4">
-                        <!-- Icon box -->
-                        <div class="icon-box text-center mb-5">
-                            <div class="icon">
-                                <span class="fas fa-puzzle-piece"></span>
+                    <!-- 网络安全基线核查 -->
+                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                        <div class="card border-0 shadow-sm h-100">
+                            <img src="./assets/img/company/service-audit.jpg" class="card-img-top" alt="网络安全基线核查" style="height: 180px; object-fit: cover;">
+                            <div class="card-body">
+                                <div class="icon icon-sm icon-tertiary mb-3">
+                                    <span class="fas fa-clipboard-check"></span>
+                                </div>
+                                <h3 class="h5 card-title">网络安全基线核查</h3>
+                                <p class="card-text text-gray font-small">针对政府机关、事业单位、企业，提供网络设备及服务器安全基线核查服务。出具标准化报告、安全整改清单、加固方案。</p>
                             </div>
-                            <h3 class="h5 my-3">Modular approach</h3>
-                            <p>Nicely customized components that can be reused anytime and anywhere in your project</p>
                         </div>
-                        <!-- End of Icon box -->
                     </div>
-                    <div class="col-md-4">
-                        <!-- Icon box -->
-                        <div class="icon-box text-center mb-5">
-                            <div class="icon">
-                                <span class="fab fa-gulp"></span>
+                </div>
+                <div class="row">
+                    <!-- 系统集成服务 -->
+                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                        <div class="card border-0 shadow-sm h-100">
+                            <img src="./assets/img/company/service-integration.jpg" class="card-img-top" alt="系统集成服务" style="height: 180px; object-fit: cover;">
+                            <div class="card-body">
+                                <div class="icon icon-sm icon-tertiary mb-3">
+                                    <span class="fas fa-project-diagram"></span>
+                                </div>
+                                <h3 class="h5 card-title">系统集成服务</h3>
+                                <p class="card-text text-gray font-small">机房建设、综合布线、网络改造、安防组网、音视频会议系统、弱电工程、办公系统集成、软硬件整体部署。全流程落地交付。</p>
                             </div>
-                            <h3 class="h5 my-3">Gulp & BrowserSync</h3>
-                            <p>With our custom Gulp commands & BrowserSync we offer a seemless and fast workflow for
-                                your project</p>
                         </div>
-                        <!-- End of Icon box -->
                     </div>
-                    <div class="col-md-4">
-                        <!-- Icon box -->
-                        <div class="icon-box text-center mb-5">
-                            <div class="icon">
+                    <!-- IT运维服务 -->
+                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                        <div class="card border-0 shadow-sm h-100">
+                            <img src="./assets/img/company/service-maintenance.jpg" class="card-img-top" alt="IT运维服务" style="height: 180px; object-fit: cover;">
+                            <div class="card-body">
+                                <div class="icon icon-sm icon-tertiary mb-3">
+                                    <span class="fas fa-tools"></span>
+                                </div>
+                                <h3 class="h5 card-title">IT运维服务</h3>
+                                <p class="card-text text-gray font-small">全年外包式IT运维、驻场运维、定期巡检、故障抢修、会商运维、系统维保服务。保障信息化系统长期稳定运行。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 定制软件开发 -->
+                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                        <div class="card border-0 shadow-sm h-100">
+                            <img src="./assets/img/company/service-software.jpg" class="card-img-top" alt="定制软件开发" style="height: 180px; object-fit: cover;">
+                            <div class="card-body">
+                                <div class="icon icon-sm icon-tertiary mb-3">
+                                    <span class="fas fa-code"></span>
+                                </div>
+                                <h3 class="h5 card-title">定制软件开发</h3>
+                                <p class="card-text text-gray font-small">业务管理系统、数据统计系统、台账管理系统、后台管控系统。不套用通用模板，贴合真实工作场景开发，支持后期维护与拓展。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 企业环保门禁联网系统 -->
+                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                        <div class="card border-0 shadow-sm h-100">
+                            <img src="./assets/img/company/service-environment.jpg" class="card-img-top" alt="企业环保门禁联网系统" style="height: 180px; object-fit: cover;">
+                            <div class="card-body">
+                                <div class="icon icon-sm icon-tertiary mb-3">
+                                    <span class="fas fa-leaf"></span>
+                                </div>
+                                <h3 class="h5 card-title">企业环保门禁联网系统</h3>
+                                <p class="card-text text-gray font-small">环保门禁车辆管控、人员出入登记、联网监管、数据上传、台账记录、出入溯源。帮助完成环保门禁标准化、联网化、合规化改造。</p>
+                                <span class="badge bg-tertiary">核心特色</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 服务优势 -->
+        <section class="section section-lg bg-secondary text-white">
+            <div class="container">
+                <div class="row mb-5 mb-lg-6">
+                    <div class="col-12 text-center">
+                        <h2 class="h1 mb-4">我们的服务优势</h2>
+                        <p class="lead px-lg-8">以专业技术、稳定产品、贴心服务，为每一位客户打造安全、合规、高效、智能的数字化办公环境</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="icon-box text-center">
+                            <div class="icon icon-lg mb-3">
+                                <span class="fas fa-th-large"></span>
+                            </div>
+                            <h3 class="h5 my-3">业务全覆盖</h3>
+                            <p>硬件销售+安全服务+集成施工+软件开发+环保专项系统+全年运维，一站式解决所有IT信息化问题。</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="icon-box text-center">
+                            <div class="icon icon-lg mb-3">
+                                <span class="fas fa-landmark"></span>
+                            </div>
+                            <h3 class="h5 my-3">政企实战经验</h3>
+                            <p>熟悉政府、环保、企业合规标准，方案落地性强，不空谈理论。丰富的政企项目交付经验。</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="icon-box text-center">
+                            <div class="icon icon-lg mb-3">
+                                <span class="fas fa-certificate"></span>
+                            </div>
+                            <h3 class="h5 my-3">原厂正品保障</h3>
+                            <p>所有网络、安全、服务器硬件全新正品，可对公、可验收、可溯源。杜绝翻新、水货、拆封设备。</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="icon-box text-center">
+                            <div class="icon icon-lg mb-3">
+                                <span class="fas fa-file-contract"></span>
+                            </div>
+                            <h3 class="h5 my-3">可落地可验收</h3>
+                            <p>所有项目均配套完整资料、施工记录、测试报告、验收文档，满足政企验收标准。</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="icon-box text-center">
+                            <div class="icon icon-lg mb-3">
+                                <span class="fas fa-bolt"></span>
+                            </div>
+                            <h3 class="h5 my-3">售后响应快速</h3>
+                            <p>本地团队服务，故障快速响应、上门及时、全年技术支持。7x24小时故障处理机制。</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="icon-box text-center">
+                            <div class="icon icon-lg mb-3">
+                                <span class="fas fa-sync-alt"></span>
+                            </div>
+                            <h3 class="h5 my-3">可长期合作</h3>
+                            <p>支持渠道分级合作、批量供货、项目分包、长期运维托管。建立稳固的合作关系。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 服务流程 -->
+        <section class="section section-lg">
+            <div class="container">
+                <div class="row mb-5 mb-lg-6">
+                    <div class="col-12 text-center">
+                        <span class="badge bg-tertiary mb-3">服务流程</span>
+                        <h2 class="h1 mb-4">标准化服务流程</h2>
+                        <p class="lead">从需求沟通到长期售后运维，全流程闭环服务</p>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-10">
+                        <div class="row">
+                            <div class="col-6 col-md-3 text-center mb-5">
+                                <div class="icon icon-shape icon-lg bg-tertiary text-white rounded-circle mb-3">
+                                    <span class="fas fa-comments"></span>
+                                </div>
+                                <h3 class="h6 fw-bold">需求沟通</h3>
+                                <p class="text-gray font-small">深入了解客户需求与现场环境</p>
+                            </div>
+                            <div class="col-6 col-md-3 text-center mb-5">
+                                <div class="icon icon-shape icon-lg bg-tertiary text-white rounded-circle mb-3">
+                                    <span class="fas fa-search"></span>
+                                </div>
+                                <h3 class="h6 fw-bold">现场勘测</h3>
+                                <p class="text-gray font-small">实地勘测与需求梳理</p>
+                            </div>
+                            <div class="col-6 col-md-3 text-center mb-5">
+                                <div class="icon icon-shape icon-lg bg-tertiary text-white rounded-circle mb-3">
+                                    <span class="fas fa-file-invoice-dollar"></span>
+                                </div>
+                                <h3 class="h6 fw-bold">定制方案</h3>
+                                <p class="text-gray font-small">定制方案与报价</p>
+                            </div>
+                            <div class="col-6 col-md-3 text-center mb-5">
+                                <div class="icon icon-shape icon-lg bg-tertiary text-white rounded-circle mb-3">
+                                    <span class="fas fa-file-signature"></span>
+                                </div>
+                                <h3 class="h6 fw-bold">合同签约</h3>
+                                <p class="text-gray font-small">正式合同签订</p>
+                            </div>
+                            <div class="col-6 col-md-3 text-center mb-5">
+                                <div class="icon icon-shape icon-lg bg-tertiary text-white rounded-circle mb-3">
+                                    <span class="fas fa-truck-loading"></span>
+                                </div>
+                                <h3 class="h6 fw-bold">设备供货</h3>
+                                <p class="text-gray font-small">设备供货与开发部署</p>
+                            </div>
+                            <div class="col-6 col-md-3 text-center mb-5">
+                                <div class="icon icon-shape icon-lg bg-tertiary text-white rounded-circle mb-3">
+                                    <span class="fas fa-cogs"></span>
+                                </div>
+                                <h3 class="h6 fw-bold">施工调试</h3>
+                                <p class="text-gray font-small">施工实施与调试上线</p>
+                            </div>
+                            <div class="col-6 col-md-3 text-center mb-5">
+                                <div class="icon icon-shape icon-lg bg-tertiary text-white rounded-circle mb-3">
+                                    <span class="fas fa-check-double"></span>
+                                </div>
+                                <h3 class="h6 fw-bold">验收交付</h3>
+                                <p class="text-gray font-small">项目验收与交付</p>
+                            </div>
+                            <div class="col-6 col-md-3 text-center mb-5">
+                                <div class="icon icon-shape icon-lg bg-tertiary text-white rounded-circle mb-3">
+                                    <span class="fas fa-headset"></span>
+                                </div>
+                                <h3 class="h6 fw-bold">售后运维</h3>
+                                <p class="text-gray font-small">长期售后运维保障</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 客户保障 -->
+        <section class="section section-lg bg-tertiary text-white">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-8">
+                        <h2 class="h1 mb-4">客户保障承诺</h2>
+                        <p class="lead mb-5">选择宏泽惠，您将获得全方位的服务保障</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-3 mb-4">
+                        <div class="card bg-white text-dark border-0 shadow-sm h-100 text-center p-4">
+                            <div class="icon icon-shape icon-lg bg-tertiary text-white rounded-circle mx-auto mb-3">
+                                <span class="fas fa-shield-alt"></span>
+                            </div>
+                            <h3 class="h5">正品保障</h3>
+                            <p class="text-gray font-small">所有硬件全新正品行货，支持验货、可对公开票、可溯源查询</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-4">
+                        <div class="card bg-white text-dark border-0 shadow-sm h-100 text-center p-4">
+                            <div class="icon icon-shape icon-lg bg-tertiary text-white rounded-circle mx-auto mb-3">
                                 <span class="fas fa-file-alt"></span>
                             </div>
-                            <h3 class="h5 my-3">Well documented</h3>
-                            <p>Our kit is delivered with very detailed documentation, describing all components, styles
-                                and usages</p>
+                            <h3 class="h5">完整资料</h3>
+                            <p class="text-gray font-small">施工记录、测试报告、验收文档、操作手册一应俱全</p>
                         </div>
-                        <!-- End of Icon box -->
                     </div>
-                    <div class="col-md-4">
-                        <!-- Icon box -->
-                        <div class="icon-box text-center">
-                            <div class="icon">
-                                <span class="fas fa-tachometer-alt"></span>
+                    <div class="col-md-6 col-lg-3 mb-4">
+                        <div class="card bg-white text-dark border-0 shadow-sm h-100 text-center p-4">
+                            <div class="icon icon-shape icon-lg bg-tertiary text-white rounded-circle mx-auto mb-3">
+                                <span class="fas fa-clock"></span>
                             </div>
-                            <h3 class="h5 my-3">Google PageSpeed</h3>
-                            <p>Pixel has 80+ scores on Google PageSpeed Insights to offer you and your clients a fast
-                                website
-                            </p>
+                            <h3 class="h5">快速响应</h3>
+                            <p class="text-gray font-small">故障快速响应，本地团队上门服务，全年技术支持不断线</p>
                         </div>
-                        <!-- End of Icon box -->
                     </div>
-                    <div class="col-md-4">
-                        <!-- Icon box -->
-                        <div class="icon-box text-center mb-5">
-                            <div class="icon">
-                                <span class="fas fa-image"></span>
+                    <div class="col-md-6 col-lg-3 mb-4">
+                        <div class="card bg-white text-dark border-0 shadow-sm h-100 text-center p-4">
+                            <div class="icon icon-shape icon-lg bg-tertiary text-white rounded-circle mx-auto mb-3">
+                                <span class="fas fa-handshake"></span>
                             </div>
-                            <h3 class="h5 my-3">SVG illustrations</h3>
-                            <p>Photography and Illustration SVGs are included in the download package and are free to
-                                use
-                            </p>
+                            <h3 class="h5">长期合作</h3>
+                            <p class="text-gray font-small">支持渠道合作、批量供货、长期运维托管，建立稳固合作关系</p>
                         </div>
-                        <!-- End of Icon box -->
-                    </div>
-                    <div class="col-md-4">
-                        <!-- Icon box -->
-                        <div class="icon-box text-center mb-5">
-                            <div class="icon">
-                                <img class="navbar-brand-dark" style="height: 37px;" src="./assets/img/brand/light.svg"
-                                    alt="Pixel logo">
-                            </div>
-                            <h3 class="h5 my-3">Every pixel matters</h3>
-                            <p>We crafted each component with great care so that no rouge pixel is left behind</p>
-                        </div>
-                        <!-- End of Icon box -->
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="section section-lg line-bottom-soft">
-            <div class="container">
-                <div class="row justify-content-center mb-5 mb-lg-6">
-                    <div class="col-12 text-center">
-                        <h2 class="h1 px-lg-5">What's inside?</h2>
-                        <p class="lead px-lg-8">We have carefully crafted the perfect folder structure to ensure that
-                            finding the files you're looking for are easily reachable and well organized.</p>
-                    </div>
-                </div>
-                <div class="row d-flex align-items-center">
-                    <div class="col-12 col-lg-6 mb-4">
-                        <div class="d-none d-lg-block mt-5">
-                            <h3 class="text-center">You need only HTML, CSS and Javascript?</h3>
-                            <p class="lead mb-4">Don't worry, we got you covered. We have a folder called <code
-                                    class="text-danger">html&css</code> which includes only the basic HTML5, CSS3 and
-                                Javascript technologies.</p>
-                            <a href="https://themesberg.com/docs/pixel-bootstrap/getting-started/file-structure/"
-                                target="_blank" class="btn btn-md btn-secondary animate-up-2"><span
-                                    class="fas fa-book me-2"></span> Docs v5.3</a>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6 order-lg-first d-flex justify-content-center">
-                        <ul class="d-block fmw-100 list-style-none folder-structure">
-                            <li data-bs-toggle="tooltip" data-bs-placement="left"
-                                title="Main folder that you will be working with"><span
-                                    class="fas fa-folder me-2"></span>src</li>
-                            <li>
-                                <ul class="list-style-none ps-4">
-                                    <li data-bs-toggle="tooltip" data-bs-placement="left"
-                                        title="CSS, Images, Fonts and Javascript"><span
-                                            class="fas fa-folder me-2"></span> assets</li>
-                                    <li data-bs-toggle="tooltip" data-bs-placement="left" title="HTML templates"><span
-                                            class="fas fa-folder me-2"></span> html</li>
-                                    <li data-bs-toggle="tooltip" data-bs-placement="left"
-                                        title="Partials are HTML snippets that are included in multiple pages, such as the menu or footer">
-                                        <span class="fas fa-folder me-2"></span> partials
-                                    </li>
-                                    <li data-bs-toggle="tooltip" data-bs-placement="left" title="Sass source files">
-                                        <span class="fas fa-folder me-2"></span> scss
-                                    </li>
-                                    <li data-bs-toggle="tooltip" data-bs-placement="left"
-                                        title="The page you're looking at right now. Call it inception."><span
-                                            class="fab fa-html5 me-2 text-secondary"></span> index.html</li>
-                                </ul>
-                            </li>
-                            <li data-bs-toggle="tooltip" data-bs-placement="left"
-                                title="Pixel with only HTML, CSS and Javascript"><span
-                                    class="fas fa-folder me-2 text-muted"></span> html&css</li>
-                            <li data-bs-toggle="tooltip" data-bs-placement="left"
-                                title="Temporary folder that is created when serving files with BrowserSync"><span
-                                    class="fas fa-folder text-muted me-2"></span>.temp</li>
-                            <li data-bs-toggle="tooltip" data-bs-placement="left"
-                                title="Minified version of the project"><span
-                                    class="fas fa-folder me-2 text-muted"></span> dist</li>
-                            <li data-bs-toggle="tooltip" data-bs-placement="left"
-                                title="Project dependencies from package.json"><span
-                                    class="fas fa-folder text-muted me-2"></span> node_modules
-                            </li>
-                            <li data-bs-toggle="tooltip" data-bs-placement="left"
-                                title="Development workflow commands. We have them well documented."><span
-                                    class="fab fa-js-square me-2 text-warning"></span> gulpfile.js</li>
-                            <li data-bs-toggle="tooltip" data-bs-placement="left"
-                                title="Project details and dependencies."><span
-                                    class="fas fa-file-code me-2 text-tertiary"></span> package.json</li>
-                            <li data-bs-toggle="tooltip" data-bs-placement="left"
-                                title="No project can miss a README :)"><span
-                                    class="fas fa-file-code me-2 text-tertiary"></span> README.md</li>
-                            <li data-bs-toggle="tooltip" data-bs-placement="left"
-                                title="This file ensures that generated files and folder are ignored by Git. (eg. node_modules)">
-                                <span class="fas fa-file-code me-2 text-tertiary"></span> .gitignore
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-12 mt-5 d-lg-none">
-                        <h3 class="h5">You need only HTML, CSS and Javascript?</h3>
-                        <p>Don't worry, we got you covered. We have a folder called <code
-                                class="text-danger">html&css</code> which includes only the basic HTML5, CSS3 and
-                            Javascript technologies.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="section section-lg bg-secondary">
-            <div class="container">
-                <div class="row justify-content-center text-center text-white">
-                    <div class="col-lg-10 col-xl-12">
-                        <h2 class="fw-light mb-4">WCAG 2.1 accessible <span class="fw-bold">color scheme</span></h2>
-                        <p class="lead">
-                            We've enhanced Bootstrap’s color settings <br> to comply with the latest accessibility
-                            standards
-                        </p>
-                    </div>
-                </div>
-                <div class="row mt-4 mt-lg-6">
-                    <div class="col-md-6 col-sm-6 col-lg-3">
-                        <div class="card shadow-soft border-soft bg-gray-200 p-5 text-center mb-4">
-                            <div class="color-shape rounded bg-primary m-auto"></div>
-                            <div class="mt-4">
-                                <h2 class="h5 text-dark">Primary:</h2>
-                                <span class="fw-bold text-primary">#174F84</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-6 col-lg-3">
-                        <div class="card shadow-soft border-soft bg-gray-200 p-5 text-center mb-4">
-                            <div class="color-shape rounded bg-secondary m-auto"></div>
-                            <div class="mt-4">
-                                <h2 class="h5 text-dark">Secondary:</h2>
-                                <span class="fw-bold text-secondary">#10AB7C</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-6 col-lg-3">
-                        <div class="card shadow-soft border-dark bg-primary p-5 text-center mb-4">
-                            <div class="color-shape rounded bg-tertiary m-auto"></div>
-                            <div class="mt-4 text-white">
-                                <h2 class="h5">Tertiary:</h2>
-                                <span class="fw-bold text-white">#FF7F66</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-6 col-lg-3">
-                        <div class="card shadow-soft border-dark bg-primary p-5 text-center mb-4">
-                            <div class="color-shape rounded bg-info m-auto"></div>
-                            <div class="mt-4 text-white">
-                                <h2 class="h5">Info:</h2>
-                                <span class="fw-bold text-white">#1E90FF</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-6 col-lg-3">
-                        <div class="card shadow-soft border-dark bg-primary p-5 text-center mb-4">
-                            <div class="color-shape rounded bg-warning m-auto"></div>
-                            <div class="mt-4 text-white">
-                                <h2 class="h5">Warning:</h2>
-                                <span class="fw-bold text-white">#F5B759</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-6 col-lg-3">
-                        <div class="card shadow-soft border-dark bg-primary p-5 text-center mb-4">
-                            <div class="color-shape rounded bg-success m-auto"></div>
-                            <div class="mt-4 text-white">
-                                <h2 class="h5">Success:</h2>
-                                <span class="fw-bold text-white">#00BF9A</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-6 col-lg-3">
-                        <div class="card shadow-soft border-dark bg-primary p-5 text-center mb-4">
-                            <div class="color-shape rounded bg-danger m-auto"></div>
-                            <div class="mt-4 text-white">
-                                <h2 class="h5">Danger:</h2>
-                                <span class="fw-bold text-white">#FA5252</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-6 col-lg-3">
-                        <div class="card shadow-soft border-soft bg-gray-200 p-5 text-center mb-4">
-                            <div class="color-shape rounded bg-dark m-auto"></div>
-                            <div class="mt-4">
-                                <h2 class="h5 text-dark">Dark:</h2>
-                                <span class="fw-bold text-dark">#2A354F</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-6 col-lg-3">
-                        <div class="card shadow-soft border-dark bg-primary p-5 text-center mb-4">
-                            <div class="color-shape rounded bg-gray-300 m-auto"></div>
-                            <div class="mt-4 text-white">
-                                <h2 class="h5">Light:</h2>
-                                <span class="fw-bold text-light">#DDE1ED</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-6 col-lg-3">
-                        <div class="card shadow-soft border-dark bg-primary p-5 text-center mb-4">
-                            <div class="color-shape rounded bg-gray-200 m-auto"></div>
-                            <div class="mt-4 text-white">
-                                <h2 class="h5">Soft:</h2>
-                                <span class="fw-bold text-light">#EFF2F5</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="section section-lg bg-gray-200">
-            <div class="container">
-                <div class="row justify-content-center text-center text-dark mb-5">
-                    <div class="col-lg-9 col-xl-8">
-                        <h2 class="h1 fw-light mb-3">Less <span class="fw-bold">work</span>, more <span
-                                class="fw-bold">flow</span>.</h2>
-                        <p class="lead">
-                            Boost productivity with BrowserSync. SCSS changes are reflected instantly and pages scroll
-                            and refresh on devices as you work.
-                        </p>
-                    </div>
-                </div>
-                <div class="row justify-content-center mb-6">
-                    <div class="col-md-10 col-xl-9">
-                        <div class="position-relative">
-                            <div class="rounded bg-dark p-4 text-white mb-2">
-                                <div class="mb-3">
-                                    <div class="fw-normal">&gt; $ npm install</div>
-                                    <div class="text-muted">Everything’s installed!</div>
-                                </div>
-                                <div class="mb-3">
-                                    <div class="fw-normal">&gt; $ gulp</div>
-                                    <div class="text-muted">SCSS watching</div>
-                                    <div class="text-muted">LiveReload started</div>
-                                    <div class="text-muted">Opening localhost:3000</div>
-                                </div>
-                                <div>
-                                    <div class="fw-normal">&gt; $ that's it?</div>
-                                    <div class="text-muted">It's that simple!</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="alert bg-dark text-white position-relative mt-4"><span
-                                class="fas fa-question-circle me-2"></span> Looks unfamiliar? Don’t worry! Our <a
-                                class="text-white fw-bold text-underline"
-                                href="https://themesberg.com/docs/bootstrap-5/pixel/getting-started/quick-start/"
-                                target="_blank">documentation</a> has got you covered.</div>
                     </div>
                 </div>
             </div>
         </section>
 
-        @@include('./_free-vs-pro.html', {
-        "path": "."
-        })
+        <!-- 合作对象 -->
+        <section class="section section-md">
+            <div class="container">
+                <div class="row mb-4">
+                    <div class="col-12 text-center">
+                        <h2 class="h1 mb-3">合作对象</h2>
+                        <p class="lead">服务覆盖各类政企单位与行业客户</p>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-8">
+                        <div class="d-flex flex-wrap justify-content-center gap-3">
+                            <span class="badge bg-soft text-dark p-3 fs-6"><span class="fas fa-landmark me-2 text-primary"></span>各级政府事业单位</span>
+                            <span class="badge bg-soft text-dark p-3 fs-6"><span class="fas fa-leaf me-2 text-primary"></span>环保主管部门</span>
+                            <span class="badge bg-soft text-dark p-3 fs-6"><span class="fas fa-industry me-2 text-primary"></span>各类生产工厂</span>
+                            <span class="badge bg-soft text-dark p-3 fs-6"><span class="fas fa-building me-2 text-primary"></span>产业园区</span>
+                            <span class="badge bg-soft text-dark p-3 fs-6"><span class="fas fa-store me-2 text-primary"></span>中小企业</span>
+                            <span class="badge bg-soft text-dark p-3 fs-6"><span class="fas fa-tools me-2 text-primary"></span>工程渠道商</span>
+                            <span class="badge bg-soft text-dark p-3 fs-6"><span class="fas fa-network-wired me-2 text-primary"></span>系统集成合作伙伴</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="section section-lg bg-primary text-white">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-8">
+                        <h2 class="h1 mb-4">专注信息化建设，深耕网络安全与环保智能管控</h2>
+                        <p class="lead mb-5">用专业技术、稳定产品、贴心服务，为每一位客户打造安全、合规、高效、智能的数字化办公环境</p>
+                        <a href="html/pages/contact.html" class="btn btn-tertiary btn-lg animate-up-2"><span class="fas fa-envelope me-2"></span> 立即咨询</a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </main>
+
     @@include('./_footer.html', {
     "path": ".",
-    "classes": "bg-primary text-white"
+    "classes": "bg-dark text-white"
     })
 
     @@include('./_scripts.html', {

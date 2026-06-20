@@ -1,186 +1,101 @@
-# [Pixel Bootstrap 5 UI Kit](https://demo.themesberg.com/pixel-bootstrap-5-ui-kit/) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fthemesberg%2Fpixel-bootstrap-ui-kit&via=themesberg&text=Kick-start%20development%20with%20Pixel%20Bootstrap%20UI%20Kit&hashtags=bootstrap%2C%20ui%20kit)
+# Pixel Bootstrap 5 UI Kit
 
- ![version](https://img.shields.io/badge/version-4.0.0-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/themesberg/pixel-bootstrap-ui-kit.svg?maxAge=2592000)](https://github.com/themesberg/pixel-bootstrap-ui-kit/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/themesberg/pixel-bootstrap-ui-kit.svg?maxAge=2592000)](https://github.com/themesberg/pixel-bootstrap-ui-kit/issues?q=is%3Aissue+is%3Aclosed)
+![version](https://img.shields.io/badge/version-4.0.0-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-<a href="https://demo.themesberg.com/pixel-bootstrap-5-ui-kit/">
- <img src="https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/pixel-lite-preview.gif" alt="Pixel Bootstrap 5 UI Kit Preview"/>
- </a>
+Pixel 是一个免费、完全响应式的 Bootstrap 5 UI 组件库，帮助你快速构建专业美观的网站。提供丰富的可复用组件和区块，通过 Sass 变量自定义样式，灵活搭建各类页面。
 
-Pixel is a free, fully responsive, modern Bootstrap UI Kit that will help you build creative and professional websites. Use our components and sections, switch some Sass variables to build and arrange pages to best suit your needs.
+## 主要特性
 
-## Premium components
+- 基于 Bootstrap 5 构建，无 jQuery 依赖
+- 80+ UI 组件，5 个示例页面
+- Sass/SCSS 主题定制，Gulp 自动化构建
+- Vanilla JavaScript，轻量高效
+- 完全响应式，移动端优先
+- FontAwesome 图标库集成
 
-Pixel is a premium extension of the famous Bootstrap CSS Framework featuring pricing cards, profile cards, timelines and many more and additional plugins for datepickers and input sliders which Bootstrap does not have by default.
+## 快速开始
 
-Check out [all components here](https://demo.themesberg.com/pixel-bootstrap-5-ui-kit#components).
+### 环境要求
 
-## Example pages
+- Node.js
+- Gulp CLI
 
-Pixel comes with 5 example pages that we created to show you the beautiful user interfaces that can be created including a pricing, contact, login and register page.
+### 安装与运行
 
-## Full documentation
-
-Each component, plugin and the general workflow is well documented. Check out the [online documentation for Pixel](https://themesberg.com/docs/bootstrap-5/pixel/getting-started/quick-start/).
-
-## Workflow
-
-This product is built using the following widely used technologies:
-
-- Most popular CSS Framework Bootstrap
-- Productive workflow tool Gulp
-- Awesome CSS preprocessor Sass
-
-## Table of Contents
-
-* [Demo](#demo)
-* [Quick Start](#quick-start)
-* [Documentation](#documentation)
-* [File Structure](#file-structure)
-* [Browser Support](#browser-support)
-* [Resources](#resources)
-* [Reporting Issues](#reporting-issues)
-* [Technical Support or Questions](#technical-support-or-questions)
-* [Licensing](#licensing)
-* [Useful Links](#useful-links)
-
-## Demo
-
-| Components | About | Contact | Freelancer |
-| --- | --- | --- | --- |
-| [![Components](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/all-components.jpg)](https://demo.themesberg.com/pixel-bootstrap-5-ui-kit#components) | [![About page](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/about.jpg)](https://demo.themesberg.com/pixel-bootstrap-5-ui-kit/html/pages/about.html) | [![Contact](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/contact.jpg)](https://demo.themesberg.com/pixel-bootstrap-5-ui-kit/html/pages/contact.html) | [![Freelancer](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/freelancer.jpg)](https://demo.themesberg.com/pixel-bootstrap-5-ui-kit/html/pages/landing-freelancer.html)
-
-| Contact | Login | Register | Documentation |
-| --- | --- | --- | --- |
-| [![Contact page](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/contact.jpg)](https://demo.themesberg.com/pixel-bootstrap-5-ui-kit/html/pages/contact.html) | [![Login page](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/sign-in.jpg)](https://demo.themesberg.com/pixel-bootstrap-5-ui-kit/html/pages/sign-in.html) | [![Register page](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/sign-up.jpg)](https://demo.themesberg.com/pixel-bootstrap-5-ui-kit/html/pages/sign-up.html) | [![Documentation](https://themesberg.s3.us-east-2.amazonaws.com/public/products/pixel-lite/github/docs.jpg)](https://themesberg.com/docs/bootstrap-5/pixel/getting-started/quick-start/)
-
--   [Live Preview](https://demo.themesberg.com/pixel-bootstrap-5-ui-kit/)
--   [Details](https://themesberg.com/product/ui-kits/pixel-lite-free-bootstrap-4-ui-kit?ref=github-pixel-lite-bootstrap)
-
-## Quick start
-
-1. Download from [Themesberg](https://themesberg.com/product/ui-kits/pixel-lite-free-bootstrap-4-ui-kit?ref=github-pixel-lite-bootstrap)
-2. Download the project's zip
-3. Make sure you have Node locally installed.
-4. Download Gulp Command Line Interface to be able to use gulp in your Terminal.
-
-```
+```bash
+# 安装 Gulp CLI（全局）
 npm install gulp-cli -g
-```
 
-5. After installing Gulp, run npm install in the main `pixel/` folder to download all the project dependencies. You'll find them in the `node_modules/` folder.
-
-```
+# 安装项目依赖
 npm install
-```
 
-6. Run gulp in the `pixel/` folder to serve the project files using BrowserSync. Running gulp will compile the theme and open `/index.html` in your main browser.
-
-```
+# 启动开发服务器（BrowserSync 热重载）
 gulp
 ```
 
-While the gulp command is running, files in the `assets/scss/`, `assets/js/` and `components/` folders will be monitored for changes. Files from the `assets/scss/` folder will generate injected CSS.
+按 `CTRL+C` 停止开发服务器。
 
-Hit `CTRL+C` to terminate the gulp command. This will stop the local server from running.
+### 构建输出
 
-## Theme without Sass, Gulp or Npm
-
-If you'd like to get a version of our theme without Sass, Gulp or Npm, we've got you covered. Run the following command:
-
-```
+```bash
+# 生成未压缩的 HTML/CSS 版本（html&css/ 目录）
 gulp build:dev
-```
 
-This will generate a folder `html&css` which will have unminified CSS, Html and Javascript.
-
-## Minified version
-
-If you'd like to compile the code and get a minified version of the HTML and CSS just run the following Gulp command:
-
-```
+# 生成压缩后的生产版本（dist/ 目录）
 gulp build:dist
 ```
 
-This will generate a folder `dist` which will have minified CSS, Html and Javascript.
-
-## Documentation
-The documentation for Pixel Bootstrap UI Kit is hosted on our [website](https://themesberg.com/docs/pixel-bootstrap/getting-started/overview).
-
-## File Structure
-Within the download you'll find the following directories and files:
+## 项目结构
 
 ```
-Pixel Bootstrap UI Kit
 .
-├── LICENSE
-├── README.md
-├── dist
-│   ├── assets
-│   ├── css
-│   ├── html
-│   ├── index.html
-│   └── vendor
-├── gulpfile.js
-├── html&css
-│   ├── assets
-│   ├── css
-│   ├── html
-│   ├── index.html
-│   └── vendor
-├── package-lock.json
-├── package.json
-└── src
-    ├── assets
-    ├── html
-    ├── index.html
-    ├── partials
-    └── scss
+├── src/                    # 源代码
+│   ├── index.html          # 首页
+│   ├── html/pages/         # 页面模板
+│   ├── partials/           # 可复用 HTML 片段
+│   ├── assets/
+│   │   ├── img/            # 图片资源
+│   │   └── js/             # 自定义 JavaScript
+│   └── scss/               # Sass 样式源文件
+├── html&css/               # 构建输出（未压缩）
+├── dist/                   # 构建输出（压缩）
+├── gulpfile.js             # Gulp 构建配置
+└── package.json            # 项目依赖
 ```
 
-## Browser Support
+## Gulp 任务
 
-At present, we officially aim to support the last two versions of the following browsers:
+| 命令 | 说明 |
+|------|------|
+| `gulp` | 启动开发服务器，实时监听文件变化 |
+| `gulp build:dev` | 构建未压缩版本到 `html&css/` |
+| `gulp build:dist` | 构建压缩版本到 `dist/` |
 
-<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/opera.png" width="64" height="64">
+## 浏览器支持
 
-## Resources
-- Demo: <https://demo.themesberg.com/pixel-bootstrap-5-ui-kit/index.html>
-- Download Page: <https://themesberg.com/product/ui-kits/pixel-lite-free-bootstrap-4-ui-kit?ref=github-pixel-lite-bootstrap>
-- Documentation: <https://themesberg.com/docs/pixel-bootstrap/getting-started/overview?ref=github-pixel-lite-bootstrap>
-- License Agreement: <https://themesberg.com/licensing?ref=github-pixel-lite-bootstrap>
-- Support: <https://themesberg.com/contact?ref=github-pixel-lite-bootstrap>
-- Issues: [Github Issues Page](https://github.com/themesberg/pixel-bootstrap-ui-kit/issues)
+支持以下浏览器的最近两个版本：
 
-## Reporting Issues
+- Chrome
+- Firefox
+- Edge
+- Safari
+- Opera
 
-We use GitHub Issues as the official bug tracker for Pixel Pro Bootstrap UI Kit. Here are some advices for our users that want to report an issue:
+## 问题反馈
 
-1. Make sure that you are using the latest version of Pixel Pro Bootstrap UI Kit. Check the CHANGELOG from your dashboard on our [website](https://themesberg.com?ref=github-pixel-lite-bootstrap).
-2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
-3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
+如遇到问题，请通过 GitHub Issues 提交，并附上：
 
-## Technical Support or Questions
+1. 问题的复现步骤
+2. 使用的浏览器及版本
+3. 相关的错误信息或截图
 
-If you have questions or need help integrating the product please [contact us](https://themesberg.com/contact?ref=github-pixel-lite-bootstrap) instead of opening an issue.
+## 许可证
 
-## Licensing
+MIT License - 详见 [LICENSE](./LICENSE) 文件
 
-- Copyright 2020 Themesberg (Crafty Dwarf LLC) (https://themesberg.com)
-- Themesberg [license](https://themesberg.com/licensing#mit) (MIT License)
+## 相关资源
 
-## Useful Links
-
-- [More themes](https://themesberg.com/themes) from Themesberg
-- [Free themes](https://themesberg.com/templates/free) from Themesberg
-- [Bootstrap Themes, Templates & UI Kits](https://themesberg.com/templates/bootstrap) from Themesberg
-- [Affiliate Program](https://themesberg.com/affiliate?ref=github-pixel-lite-bootstrap)
-
-##### Social Media
-
-Twitter: <https://twitter.com/themesberg>
-
-Facebook: <https://www.facebook.com/themesberg/>
-
-Dribbble: <https://dribbble.com/themesberg>
-
-Instagram: <https://www.instagram.com/themesberg/>
+- [Bootstrap 官方文档](https://getbootstrap.com/)
+- [Gulp 官方文档](https://gulpjs.com/)
+- [Sass 官方文档](https://sass-lang.com/)
+- [FontAwesome 图标](https://fontawesome.com/)
