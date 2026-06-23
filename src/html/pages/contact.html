@@ -11,98 +11,154 @@
 <body>
     @@include('./_navigation.html', {
         "path": "../..",
-        "classes": "navbar-dark navbar-theme-primary"
+        "classes": "navbar-dark"
     })
     <main>
 
-        <!-- Hero -->
-        <section class="section section-header pb-11 bg-primary text-white">
+        <!-- Hero Banner -->
+        <section class="section-header overflow-hidden p-0 mb-0">
+            <div class="position-relative" style="height: 360px;">
+                <img src="../../assets/img/company/banner-contact.jpg" class="d-block w-100 h-100" alt="联系我们" style="object-fit: cover;">
+                <div class="position-absolute top-0 start-0 w-100 h-100" style="background: linear-gradient(135deg, rgba(23,79,132,0.9) 0%, rgba(13,58,99,0.8) 100%);"></div>
+                <div class="position-absolute top-50 start-50 translate-middle text-center text-white w-100 px-4">
+                    <h1 class="fw-bolder display-4 mb-3">联系我们</h1>
+                    <p class="lead fw-normal mb-0">有新的项目需求？欢迎随时联系，我们当天回复您的咨询</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 联系信息卡片 -->
+        <section class="section section-sm">
             <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-12 col-xl-8 text-center">
-                        <h1 class="display-2 mb-3">联系我们</h1>
-                        <p class="lead">有新的项目需求？欢迎随时联系，我们当天回复您的咨询。</p>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card border-0 shadow-sm text-center p-4 h-100">
+                            <div class="icon icon-shape icon-lg bg-primary text-white rounded-circle mx-auto mb-3">
+                                <span class="fas fa-phone"></span>
+                            </div>
+                            <h3 class="h5">电话咨询</h3>
+                            <p class="text-gray mb-1">服务热线</p>
+                            <p class="h3 text-tertiary fw-bold">18635183965</p>
+                            <p class="text-gray font-small mb-0">周一至周五 9:00-18:00</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card border-0 shadow-sm text-center p-4 h-100">
+                            <div class="icon icon-shape icon-lg bg-primary text-white rounded-circle mx-auto mb-3">
+                                <span class="fas fa-envelope"></span>
+                            </div>
+                            <h3 class="h5">邮箱咨询</h3>
+                            <p class="text-gray mb-1">商务合作</p>
+                            <p class="h5 text-tertiary fw-bold">18635183965@163.com</p>
+                            <p class="text-gray font-small mb-0">24小时内回复</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card border-0 shadow-sm text-center p-4 h-100">
+                            <div class="icon icon-shape icon-lg bg-primary text-white rounded-circle mx-auto mb-3">
+                                <span class="fas fa-map-marker-alt"></span>
+                            </div>
+                            <h3 class="h5">公司地址</h3>
+                            <p class="text-gray mb-1">山西省太原市</p>
+                            <p class="h5 text-tertiary fw-bold">迎泽区并州路</p>
+                            <p class="text-gray font-small mb-0">欢迎上门洽谈</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- 联系信息 -->
-        <section class="section section-lg pt-6">
+        <!-- 服务承诺 + 快速咨询 -->
+        <section class="section section-sm bg-gray-200">
             <div class="container">
-                <div class="row mb-5 mb-lg-6">
-                    <div class="col-12 col-md-4 mb-4">
-                        <div class="card border-0 shadow-sm text-center p-4 h-100">
-                            <div class="icon icon-shape icon-lg bg-tertiary text-white rounded-circle mx-auto mb-3">
-                                <span class="fas fa-phone"></span>
+                <div class="row align-items-start">
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <span class="badge bg-tertiary mb-3">服务承诺</span>
+                        <h2 class="h1 mb-4">我们的承诺</h2>
+                        <div class="d-flex align-items-start mb-4">
+                            <div class="icon icon-shape icon-sm bg-primary text-white rounded-circle me-3 flex-shrink-0"><span class="fas fa-bolt"></span></div>
+                            <div>
+                                <h3 class="h6 fw-bold mb-1">快速响应</h3>
+                                <p class="text-gray font-small mb-0">电话即时响应，留言24小时内回复，紧急故障2小时内上门</p>
                             </div>
-                            <h3 class="h5">电话咨询</h3>
-                            <p class="text-gray mb-1">全国服务热线</p>
-                            <p class="h4 text-primary fw-bold">18635183965</p>
-                            <p class="text-gray font-small">周一至周五 9:00-18:00</p>
+                        </div>
+                        <div class="d-flex align-items-start mb-4">
+                            <div class="icon icon-shape icon-sm bg-primary text-white rounded-circle me-3 flex-shrink-0"><span class="fas fa-file-invoice-dollar"></span></div>
+                            <div>
+                                <h3 class="h6 fw-bold mb-1">免费方案</h3>
+                                <p class="text-gray font-small mb-0">根据需求免费提供技术方案与报价，不收取任何前期咨询费用</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-start mb-4">
+                            <div class="icon icon-shape icon-sm bg-primary text-white rounded-circle me-3 flex-shrink-0"><span class="fas fa-certificate"></span></div>
+                            <div>
+                                <h3 class="h6 fw-bold mb-1">正品保障</h3>
+                                <p class="text-gray font-small mb-0">所有硬件全新正品，支持验货、可对公开票、可溯源查询</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-start">
+                            <div class="icon icon-shape icon-sm bg-primary text-white rounded-circle me-3 flex-shrink-0"><span class="fas fa-handshake"></span></div>
+                            <div>
+                                <h3 class="h6 fw-bold mb-1">诚信合作</h3>
+                                <p class="text-gray font-small mb-0">正规合同、对公账户、发票齐全，保障双方权益</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 mb-4">
-                        <div class="card border-0 shadow-sm text-center p-4 h-100">
-                            <div class="icon icon-shape icon-lg bg-tertiary text-white rounded-circle mx-auto mb-3">
-                                <span class="fas fa-envelope"></span>
+                    <div class="col-lg-6">
+                        <div class="card border-0 shadow-sm p-4">
+                            <h3 class="h4 mb-4 text-center">快速电话咨询</h3>
+                            <div class="text-center py-4">
+                                <div class="icon icon-shape icon-xl bg-tertiary text-white rounded-circle mx-auto mb-4">
+                                    <span class="fas fa-phone-alt"></span>
+                                </div>
+                                <p class="h2 text-primary fw-bold mb-3">18635183965</p>
+                                <p class="text-gray mb-4">周一至周五 9:00 - 18:00</p>
+                                <a href="tel:18635183965" class="btn btn-tertiary btn-lg animate-up-2"><span class="fas fa-phone me-2"></span> 立即拨打</a>
                             </div>
-                            <h3 class="h5">邮箱咨询</h3>
-                            <p class="text-gray mb-1">商务合作邮箱</p>
-                            <p class="h5 text-primary fw-bold">18635183965@163.com</p>
-                            <p class="text-gray font-small">24小时内回复</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4 mb-4">
-                        <div class="card border-0 shadow-sm text-center p-4 h-100">
-                            <div class="icon icon-shape icon-lg bg-tertiary text-white rounded-circle mx-auto mb-3">
-                                <span class="fas fa-map-marker-alt"></span>
+                            <hr>
+                            <div class="text-center">
+                                <p class="text-gray font-small mb-2">或发送邮件至</p>
+                                <p class="h5 text-primary fw-bold mb-0">18635183965@163.com</p>
                             </div>
-                            <h3 class="h5">公司地址</h3>
-                            <p class="text-gray mb-1">山西省太原市</p>
-                            <p class="h5 text-primary fw-bold">迎泽区并州路</p>
-                            <p class="text-gray font-small">欢迎上门洽谈</p>
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
 
-                <!-- 服务承诺 -->
-                <div class="row">
-                    <div class="col-12 text-center mb-5">
-                        <h2 class="h1">我们的服务承诺</h2>
+        <!-- 合作对象 -->
+        <section class="section section-sm">
+            <div class="container">
+                <div class="row mb-4">
+                    <div class="col-12 text-center">
+                        <h2 class="h1 mb-3">合作对象</h2>
+                        <p class="lead text-gray">服务覆盖各类政企单位与行业客户</p>
                     </div>
-                    <div class="col-12 col-md-4 mb-4">
-                        <div class="d-flex align-items-start p-3">
-                            <div class="icon icon-sm icon-tertiary me-3 flex-shrink-0">
-                                <span class="fas fa-bolt"></span>
-                            </div>
-                            <div>
-                                <h3 class="h6 fw-bold">快速响应</h3>
-                                <p class="text-gray font-small mb-0">电话咨询即时响应，留言咨询24小时内回复，紧急故障2小时内上门。</p>
-                            </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-10">
+                        <div class="d-flex flex-wrap justify-content-center gap-3">
+                            <span class="badge bg-soft text-dark p-3 fs-6"><span class="fas fa-landmark me-2 text-primary"></span>各级政府事业单位</span>
+                            <span class="badge bg-soft text-dark p-3 fs-6"><span class="fas fa-leaf me-2 text-primary"></span>环保主管部门</span>
+                            <span class="badge bg-soft text-dark p-3 fs-6"><span class="fas fa-industry me-2 text-primary"></span>各类生产工厂</span>
+                            <span class="badge bg-soft text-dark p-3 fs-6"><span class="fas fa-building me-2 text-primary"></span>产业园区</span>
+                            <span class="badge bg-soft text-dark p-3 fs-6"><span class="fas fa-store me-2 text-primary"></span>中小企业</span>
+                            <span class="badge bg-soft text-dark p-3 fs-6"><span class="fas fa-tools me-2 text-primary"></span>工程渠道商</span>
+                            <span class="badge bg-soft text-dark p-3 fs-6"><span class="fas fa-network-wired me-2 text-primary"></span>系统集成合作伙伴</span>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 mb-4">
-                        <div class="d-flex align-items-start p-3">
-                            <div class="icon icon-sm icon-tertiary me-3 flex-shrink-0">
-                                <span class="fas fa-file-invoice-dollar"></span>
-                            </div>
-                            <div>
-                                <h3 class="h6 fw-bold">免费方案</h3>
-                                <p class="text-gray font-small mb-0">根据需求免费提供技术方案与报价，不收取任何前期咨询费用。</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4 mb-4">
-                        <div class="d-flex align-items-start p-3">
-                            <div class="icon icon-sm icon-tertiary me-3 flex-shrink-0">
-                                <span class="fas fa-handshake"></span>
-                            </div>
-                            <div>
-                                <h3 class="h6 fw-bold">诚信合作</h3>
-                                <p class="text-gray font-small mb-0">正规合同、对公账户、发票齐全，保障双方权益。</p>
-                            </div>
-                        </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="section section-sm bg-primary text-white">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-8">
+                        <h2 class="h1 mb-3">专注信息化建设，深耕网络安全与环保智能管控</h2>
+                        <p class="lead mb-4">用专业技术、稳定产品、贴心服务，为每一位客户打造安全、合规、高效、智能的数字化办公环境</p>
+                        <a href="tel:18635183965" class="btn btn-tertiary btn-lg animate-up-2"><span class="fas fa-phone me-2"></span> 18635183965</a>
                     </div>
                 </div>
             </div>
