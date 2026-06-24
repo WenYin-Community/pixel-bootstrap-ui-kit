@@ -24,7 +24,6 @@ const cssbeautify = require('gulp-cssbeautify');
 var gulp = require('gulp');
 const npmDist = require('gulp-npm-dist');
 var sass = require('gulp-sass')(require('sass'));
-var wait = require('gulp-wait');
 var sourcemaps = require('gulp-sourcemaps');
 var fileinclude = require('gulp-file-include');
 
@@ -73,7 +72,6 @@ const paths = {
 // Compile SCSS
 gulp.task('scss', function () {
     return gulp.src([paths.src.scss + '/custom/**/*.scss', paths.src.scss + '/pixel/**/*.scss', paths.src.scss + '/pixel.scss'])
-        .pipe(wait(500))
         .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
         .pipe(autoprefixer({
@@ -193,7 +191,6 @@ gulp.task('clean:dev', function () {
 // Compile and copy scss/css
 gulp.task('copy:dist:css', function () {
     return gulp.src([paths.src.scss + '/custom/**/*.scss', paths.src.scss + '/pixel/**/*.scss', paths.src.scss + '/pixel.scss'])
-        .pipe(wait(500))
         .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
         .pipe(autoprefixer({
@@ -205,7 +202,6 @@ gulp.task('copy:dist:css', function () {
 
 gulp.task('copy:dev:css', function () {
     return gulp.src([paths.src.scss + '/custom/**/*.scss', paths.src.scss + '/pixel/**/*.scss', paths.src.scss + '/pixel.scss'])
-        .pipe(wait(500))
         .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
         .pipe(autoprefixer({
